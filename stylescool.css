@@ -1,0 +1,125 @@
+html {
+  
+ background-color: black;
+
+}
+  .elem {
+      background: orange;
+      width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+      animation: moveToLeft 5s linear infinite;
+      animation-delay: 10ms;
+    }
+
+    @keyframes moveToLeft {
+      0% {
+        transform: translateX(0px);
+        background: linear-gradient(
+          to right,
+          rgb(229, 35, 37) 0%,
+          #ff867a 0%,
+          #ff8c7f 21%,
+          #f99185 52%,
+          #cf556c 78%,
+          #b12a5b 100%
+        );
+      }
+      25% {
+        transform: translateX(400px);
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+      }
+      50% {
+        transform: translateY(200px) translateX(400px);
+        background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      }
+      
+      75% {
+        transform: translateX(0px) translateY(200px);
+        background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .image1 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 2s linear infinite;
+      animation-delay: 10ms;
+
+}
+   .image2 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 1s linear infinite;
+      animation-delay: 10ms;
+
+}
+ .image3 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 4s linear infinite;
+      animation-delay: 10ms;
+
+}
+ .image4 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 6s linear infinite;
+      animation-delay: 10ms;
+
+}
+ .image5 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 0.5s linear infinite;
+      animation-delay: 10ms;
+
+}
+ .image6 {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+      height: 250px;
+      border-radius: 1000px;
+       
+      animation: moveToLeft 3s linear infinite;
+      animation-delay: 10ms;
+
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+
+
+
+    
